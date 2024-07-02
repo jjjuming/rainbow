@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow 동물병원</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6c5ce7;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        nav {
+            background-color: #8e44ad;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #9b59b6;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* 반응형 디자인 */
+        @media (max-width: 768px) {
+            nav {
+                display: block;
+            }
+            nav a {
+                display: block;
+                padding: 10px 0;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rainbow 동물병원</h1>
+        <p>사랑과 전문적인 치료로 당신의 반려동물을 돌보겠습니다.</p>
+    </header>
+    <nav>
+        <a href="#about">병원 소개</a>
+        <a href="#services">서비스</a>
+        <a href="#doctors">의료진</a>
+        <a href="#contact">연락처</a>
+    </nav>
+    <section id="about">
+        <h2>병원 소개</h2>
+        <p>Rainbow 동물병원은 10년 이상의 경험을 바탕으로 반려동물의 건강과 안녕을 위해 최선을 다하고 있습니다. 우리의 목표는 모든 동물들에게 최고의 치료와 사랑을 제공하는 것입니다.</p>
+    </section>
+    <section id="services">
+        <h2>서비스</h2>
+        <ul>
+            <li>진료 및 예방 접종</li>
+            <li>수술 및 치료</li>
+            <li>이비인후과 및 치과 진료</li>
+            <li>긴급 상황 대응</li>
+        </ul>
+    </section>
+    <section id="doctors">
+        <h2>의료진</h2>
+        <div class="doctor">
+            <img src="doctor1.jpg" alt="Dr. Smith">
+            <h3>Dr. John Smith</h3>
+            <p>내과 전문의</p>
+        </div>
+        <div class="doctor">
+            <img src="doctor2.jpg" alt="Dr. Lee">
+            <h3>Dr. Jane Lee</h3>
+            <p>외과 전문의</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>주소: 서울특별시 강남구 강남대로 1234번길 56, Rainbow 동물병원</p>
+        <p>전화번호: 02-1234-5678</p>
+        <p>이메일: info@rainbowvet.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rainbow 동물병원. All rights reserved.</p>
+    </footer>
+</body>
+</html>
